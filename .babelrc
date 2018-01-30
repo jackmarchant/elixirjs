@@ -1,0 +1,103 @@
+{
+  "env": {
+    "test": {
+      "presets": [
+        [
+          "env",
+          {
+            "useBuiltIns": true,
+            "targets": {
+              "node": "8.6"
+            }
+          }
+        ]
+      ],
+      "plugins": [
+        [
+          "transform-class-properties",
+          {
+            "spec": true
+          }
+        ],
+        [
+          "transform-object-rest-spread",
+          {
+            "useBuiltIns": true
+          }
+        ]
+      ]
+    },
+    "development": {
+      "presets": [
+        [
+          "env",
+          {
+            "useBuiltIns": true,
+            "modules": false,
+            "targets": {
+              "browsers": [
+                "last 4 Chrome versions",
+                "last 4 Firefox versions",
+                "last 4 Edge versions",
+                "last 4 Safari versions",
+                "last 3 iOS versions",
+                "IE 10",
+                "> 1%"
+              ]
+            }
+          }
+        ]
+      ],
+      "plugins": [
+        [
+          "transform-class-properties",
+          {
+            "spec": true
+          }
+        ],
+        [
+          "transform-object-rest-spread",
+          {
+            "useBuiltIns": true
+          }
+        ]
+      ]
+    },
+    "production": {
+      "presets": [
+        [
+          "env",
+          {
+            "useBuiltIns": true,
+            "modules": false,
+            "targets": {
+              "browsers": [
+                "last 4 Chrome versions",
+                "last 4 Firefox versions",
+                "last 4 Edge versions",
+                "last 4 Safari versions",
+                "last 3 iOS versions",
+                "IE 10",
+                "> 1%"
+              ]
+            }
+          }
+        ]
+      ],
+      "plugins": [
+        [
+          "transform-class-properties",
+          {
+            "spec": true
+          }
+        ],
+        [
+          "transform-object-rest-spread",
+          {
+            "useBuiltIns": true
+          }
+        ]
+      ]
+    }
+  }
+}
