@@ -1,5 +1,5 @@
 {
-  "name": "ElixirJS",
+  "name": "elixir-javascript",
   "description": "JavaScript helper functions to mimic the Elixir standard library",
   "version": "0.0.1",
   "license": "MIT",
